@@ -33,23 +33,32 @@ body {
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-left: 5px;
   /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
   align-items: center;
   justify-content: center;
+
 }
 
 .single-product {
-  padding: 10px;
+  padding: 20px;
   transition: 0.6s;
+  background-color: rgba(221, 193, 217, 0.289);
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+  height: 500px;
+
 }
 
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 4px 4px 7px rgba(173, 131, 240, 0.549);
   border-radius: 10px;
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
 }
 
 .product-image {
@@ -65,6 +74,7 @@ body {
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+  margin-top: 10px;
 }
 
 .cart-main {
