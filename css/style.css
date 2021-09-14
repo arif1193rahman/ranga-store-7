@@ -4,6 +4,10 @@ body {
   /* background-color: rgb(220, 232, 241); */
 }
 
+.head-line{
+margin-left: 80px;
+}
+
 .search-field {
   border: none;
   border-radius: 20px;
